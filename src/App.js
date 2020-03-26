@@ -1,9 +1,11 @@
 import React from 'react';
 
-function App() {
+import './global.css';
+
+import Logon from './pages/Logon';
+
+export default function App() {
   return (
-    <h1>Hello =D</h1>
+    <Logon />
   );
 }
-
-export default App;
